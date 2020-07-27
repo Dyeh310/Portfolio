@@ -1,0 +1,212 @@
+<html lang="en">
+
+<head>
+      <meta charset="utf-8">
+      <title>Nicholas M. Heyd</title>
+      <meta name="description"
+            content="About Me">
+      <meta name="Nicholas M. Heyd"
+            content="Portfolio">
+      <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous">
+      <link rel="stylesheet"
+            href="css\investMe.css">
+</head>
+
+<body>
+      <!-- Main Container Div-->
+      <div class="main-container">
+            <!-- Return to main apage-->
+            <h3 class="text-center"><a href="index.html">Return</a></h3>
+
+            <!-- Start InvestMe Div -->
+            <!-- Home Page -->
+            <h1 class="text-center">InvestMe</h1>
+            <div class="container">
+                  <h5 class="text-center">Home Screen</h5>
+                  <div class="row d-flex justify-content-center">
+                        <div class="col-md-6 col-xs-6 left-img">
+                              <img src="assets\Projects\InvestMe\homePage.PNG"
+                                   class="img-fluid">
+                        </div>
+                        <div class="col-md-6 col-xs-6">
+                              <p>
+                                    The home screen acts as the first page you will see when launching InvestMe. For
+                                    returning users, entering your username
+                                    and password will unlock your account. New users should click the link at the bottom
+                                    to start setting up a new account.
+                                    The app allows users to create an InvestMe account using their Google and Facebook
+                                    credentials. This is completed on the
+                                    page utilized for creating a new account.
+                              </p>
+                              <p>
+                                    I created the design page to set the style for the entire app. For instance, the
+                                    size and width of the input boxes, the
+                                    font style, and the color scheme became a key part of the app. Users expect
+                                    consistency and will see the same patterns
+                                    throughout. As this was my first time writing in Dart and using Flutter, the
+                                    learning curve took some time. Fortunately,
+                                    Dart is a C-derivative and styling Flutter widgets is similar to using CSS. After
+                                    completing the layout of the page, the
+                                    team hooked the application to Google’s Firebase, effectively allowing users to
+                                    login and store data.
+                              </p>
+                        </div>
+
+                  </div>
+            </div>
+            <!--End Home Page-->
+            <!--New Entry Page -->
+            <div class="container">
+                  <h5 class="text-center">New Entry Screen</h5>
+                  <div class="row d-flex justify-content-center">
+                        <div class="col-md-6 col-xs-6">
+                              <p>
+                                    One of the key features is the ability for users to be able to log their
+                                    expenditures. This page presents an easy to
+                                    read, self-explanatory interface. Below the “Enter Amount” text, a calendar icon is
+                                    available (defaulted to the present
+                                    date), so that users can date their input. After, the user can input the amount and
+                                    name of the expenditure, and any
+                                    additional notes they find helpful. Clicking save then logs the entry into the
+                                    Firebase database.
+                              </p>
+                              <p>
+                                    Users who are utilizing the app properly, will be returning to this page often. Each
+                                    purchase, specifically purchases
+                                    that may be viewed as unnecessary (coffee, snacks, etc), should be logged and dated.
+                                    By doing so, InvestMe will have
+                                    accurate user data to compare the stock market data against. This will allow the app
+                                    to provide accurate suggestions.
+                              </p>
+                        </div>
+                        <div class="col-md-6 col-xs-6 left-img">
+                              <img src="assets\Projects\InvestMe\newEntryPage.PNG"
+                                   class="img-fluid">
+                        </div>
+                  </div>
+            </div>
+            <!-- End New Entry Page -->
+            <!--Tutorial Page -->
+            <div class="container">
+                  <h5 class="text-center">Tutorial Page</h5>
+                  <div class="row d-flex justify-content-center">
+                        <div class="col-md-6 col-xs-6 left-img">
+                              <img src="assets\Projects\InvestMe\tutorialPage.PNG"
+                                   class="img-fluid">
+                        </div>
+                        <div class="col-md-6 col-xs-6">
+                              <p>
+                                    Investing is complicated, and most people do not know where to start. This app was
+                                    designed for users such as this. The
+                                    tutorial page consists of a slider of three separate screens that explain exactly
+                                    what InvestMe does. It describes how
+                                    the user can log their data, view recent expenditures, and compare data with stock
+                                    information. InvestMe was designed
+                                    with simplicity in mind and I did not believe the tutorial needed to appear more
+                                    than once. For this reason, the
+                                    tutorial only appears the first time a user logs into the account.
+                              </p>
+                        </div>
+                  </div>
+            </div>
+            <!-- End Tutorial Page -->
+            <!--My Stocks Page -->
+            <div class="container">
+                  <h5 class="text-center">My Stocks Page</h5>
+                  <div class="row d-flex justify-content-center">
+
+                        <div class="col-md-6 col-xs-6">
+                              <p>
+                                    This page acts as the user’s control center for checking stocks and preparing stocks
+                                    to be compared with their
+                                    expenditures. At the top of the page there is a search box that searches the Alpha
+                                    Vantage API for the user’s input. If
+                                    the input is found that stock will appear at the bottom section of the screen. From
+                                    here, the user can mark the stock as
+                                    a “favorite.” Now this stock will be tracked and used when comparing inputs to the
+                                    Alpha Vantage API.
+                              </p>
+                              <p>
+                                    Although the point of InvestMe was not to be just another way to check stock data,
+                                    that ability was something we
+                                    recognized when developing the app. The My Stocks page could allow users to keep
+                                    track of stocks they are interested in,
+                                    in addition to being able to prepare them for comparison. When a user gets tired of
+                                    a watching a particular stock, they
+                                    can simply remove them from the list.
+                              </p>
+                        </div>
+                        <div class="col-md-6 col-xs-6 left-img">
+                              <img src="assets\Projects\InvestMe\myStocksPage.PNG"
+                                   class="img-fluid">
+                        </div>
+                  </div>
+            </div>
+            <!-- My Stocks Page -->
+            <!--Compare Stocks Page -->
+            <div class="container">
+                  <h5 class="text-center">Compare Stocks Page</h5>
+                  <div class="row d-flex justify-content-center">
+                        <div class="col-md-6 col-xs-6 left-img">
+                              <img src="assets\Projects\InvestMe\compareStocksPage.PNG"
+                                   class="img-fluid">
+                        </div>
+                        <div class="col-md-6 col-xs-6">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                              incididunt
+                              ut
+                              labore et dolore magna
+                              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                              aliquip
+                              ex ea
+                              commodo consequat. Duis
+                              aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                              nulla
+                              pariatur. Excepteur sint
+                              occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                              est
+                              laborum.
+                        </div>
+
+                  </div>
+            </div>
+            <!-- Compare Stocks Page -->
+            <!--Compare Stocks Page -->
+            <div class="container">
+                  <h5 class="text-center">Menu Slide</h5>
+                  <div class="row d-flex justify-content-center">
+
+                        <div class="col-md-6 col-xs-6">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                              incididunt
+                              ut
+                              labore et dolore magna
+                              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                              aliquip
+                              ex ea
+                              commodo consequat. Duis
+                              aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                              nulla
+                              pariatur. Excepteur sint
+                              occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                              est
+                              laborum.
+                        </div>
+                        <div class="col-md-6 col-xs-6 left-img">
+                              <img src="assets\Projects\InvestMe\menuSlide.PNG"
+                                   class="img-fluid">
+                        </div>
+                  </div>
+            </div>
+            <!-- Compare Stocks Page -->
+            <!-- End InvestMe Div -->
+
+      </div>
+      <!-- Main Container Div End-->
+      <script src="#"></script>
+</body>
+
+</html>

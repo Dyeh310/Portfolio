@@ -1,0 +1,21 @@
+.projectList {
+    margin-top: 15%;
+}
+
+.zoomEffect:hover {
+    transform: scale(1.5);
+    z-index: 999999;
+}
+
+.colorZoom:hover {
+    background-color: lightblue;
+}
+
+#title {
+    margin-top: 4%
+}
+
+a,
+a:hover {
+    color: inherit;
+}
