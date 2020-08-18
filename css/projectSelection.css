@@ -3,7 +3,7 @@
 }
 
 .zoomEffect:hover {
-    transform: scale(1.5);
+    transform: scale(1.05);
     z-index: 999999;
 }
 
@@ -18,4 +18,37 @@
 a,
 a:hover {
     color: inherit;
+}
+
+.card-text {
+    padding: 15px;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+h4 {
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.card-title {
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+.card {
+    background-color: #F0FFFF;
+}
+
+.borderAroundPage {
+    border-style: solid;
+    padding-bottom: 100px;
+    padding-top: 25px;
+}
+
+.bottomPadding {
+    padding-bottom: 40px;
+}
+
+h1 {
+    font-family: "Brush Script MT";
+    font-size: 100px;
+
 }
