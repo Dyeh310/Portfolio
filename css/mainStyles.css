@@ -73,13 +73,15 @@ li a:hover {
 .overlay {
   background-image: url('/assets/deskItems.jpg');
   background-size: cover;
+
   filter: brightness(0.6);
 }
 
-.tronText {
+.overlay .tronText {
   z-index: 3;
   position: relative;
   color: white;
+  filter: brightness(1.6);
 }
 
 @media screen and (max-width: 900px) {
