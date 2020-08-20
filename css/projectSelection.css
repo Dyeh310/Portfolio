@@ -38,7 +38,7 @@ h4 {
 }
 
 .overlay {
-    background-image: url('/assets/deskItems.jpg');
+    background-image: url('/Portfolio/assets/deskItems.jpg');
     background-size: cover;
     filter: brightness(0.6);
   }
