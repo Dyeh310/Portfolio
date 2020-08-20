@@ -71,7 +71,7 @@ li a:hover {
 }
 
 .overlay {
-  background-image: url('/assets/deskItems.jpg');
+  background-image: url("/assets/deskItems.jpg");
   background-size: cover;
 
   filter: brightness(0.6);
