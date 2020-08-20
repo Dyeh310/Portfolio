@@ -41,7 +41,7 @@ html {
 }
 
 .overlay {
-    background-image: url('https://dyeh310.github.io/assets/deskItems.jpg');
+    background-image: url('../assets/deskItems.jpg');
     background-size: cover;
     filter: brightness(0.6);
   }
