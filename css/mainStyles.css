@@ -66,6 +66,11 @@ li a:hover {
 }
 
 
+.zoomEffect:hover {
+  transform: scale(1.2);
+  z-index: 999999;
+}
+
 .jumbotron {
   position: relative;
 }
