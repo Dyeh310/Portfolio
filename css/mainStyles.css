@@ -89,6 +89,7 @@ li a:hover {
   filter: brightness(1.6);
 }
 
+
 @media screen and (max-width: 900px) {
   nav {
     width: 10%;

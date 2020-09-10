@@ -1,6 +1,9 @@
-.left {
+html {
+    padding-top: 1px;
+}
 
-    height: 100%;
+.left {
+    height: 85%;
 }
 
 .content_center {
@@ -11,9 +14,33 @@
 
 .right {
 
-    height: 100%;
+    height: 80%;
 }
 
 #main_container {
     border-style: solid;
+}
+
+.container {
+    height: 85%;
+}
+
+.zoomEffect:hover {
+    transform: scale(1.5);
+    z-index: 999999;
+}
+
+.overlay {
+    background-image: url('../assets/deskItems.jpg');
+    background-size: cover;
+    filter: brightness(0.6);
+}
+
+@media screen and (max-width: 1000px) {
+    .font_shrink {
+        font-size: 10px;
+    }
+
+
+
 }
